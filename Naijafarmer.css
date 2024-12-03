@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 95px;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-item {
+    font-size: 1.2em;
+    margin-top: 0px;
+    color: #fff;
+}
+#nav-menu a:hover {
+    background-color: #fff;
+    color: darkgreen;
+}
+    
+#item {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+#personLogo {
+    font-size: 20vw;
+}
+    #box {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+/* Apply bg-success on hover for the nav link */
+.nav-link:hover {
+background-color: #008000; /* Bootstrap success color */
+color: #fff;
+text-decoration: underline;
+}
+
+/* Show the dropdown on hover */
+.nav-item:hover .dropdown-menu {
+ display: block;
+}
+#webname {
+    font-size: 2.5vw;
+    color: #008000
+}
